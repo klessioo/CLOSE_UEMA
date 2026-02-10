@@ -1,0 +1,14 @@
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\CloseBackendApplication.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\controller\AuthController.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\domain\user\User.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\domain\user\UserRole.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\dto\LoginRequestDTO.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\dto\LoginResponseDTO.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\dto\RegisterRequestDTO.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\exceptions\GlobalExceptionHandler.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\infra\security\SecurityConfig.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\infra\security\SecurityFilter.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\infra\security\TokenService.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\repository\UserRepository.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\service\AuthService.java
+C:\Projetos\CLOSE- PLATAFORMA DIGITAL\src\backend\src\main\java\com\uema\close\service\EmailService.java

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  /* Cores da Bandeira LGBT */
+  --pride-red: #e40303;
+  --pride-orange: #ff8c00;
+  --pride-yellow: #ffed00;
+  --pride-green: #008026;
+  --pride-blue: #24408e;
+  --pride-purple: #732982;
+  
+  /* Cores Principais */
+  --primary: var(--pride-purple);
+  --primary-dark: #5a1f66;
+  --primary-light: #9b4ba8;
+  
+  /* Gradientes */
+  --gradient-pride: linear-gradient(135deg, #e40303, #ff8c00, #ffed00, #008026, #24408e, #732982);
+  --gradient-pride-horizontal: linear-gradient(90deg, #e40303, #ff8c00, #ffed00, #008026, #24408e, #732982);
+  --gradient-purple: linear-gradient(135deg, #732982, #9b4ba8);
+}
