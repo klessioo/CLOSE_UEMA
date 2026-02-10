@@ -1,63 +1,65 @@
-Plataforma CLOSE - Sistema de Letramento LGBTQIAPN+
-Este repositório contém o código-fonte da Plataforma CLOSE, uma iniciativa desenvolvida para a Universidade Estadual do Maranhão (UEMA) - Campus Caxias. O sistema foi projetado para servir como um Ambiente Virtual de Aprendizagem (AVA) focado em diversidade, inclusão e direitos humanos no Estado do Maranhão.
 
-Estrutura do Projeto
-O projeto utiliza uma arquitetura desacoplada dividida em duas frentes principais:
+# Plataforma CLOSE
 
-Backend: API RESTful desenvolvida em Java com o framework Spring Boot.
+> **Sistema de Letramento Digital e Inclusão — Universidade Estadual do Maranhão**
 
-Frontend: Interface de usuário desenvolvida em React com TypeScript.
+A **Plataforma CLOSE** é um ecossistema educacional desenvolvido para a **UEMA - Campus Caxias**. O foco central é criar um ambiente seguro e informativo para o letramento LGBTQIAPN+, permitindo a gestão de conteúdos, cursos e jogos educativos com controle de acesso institucional rigoroso.
 
-Tecnologias Utilizadas
-Backend
-Linguagem: Java 21.
+---
 
-Framework: Spring Boot 3.
+## 🛠️ Especificações Técnicas
 
-Segurança: Spring Security com autenticação baseada em tokens JWT.
+O projeto utiliza uma arquitetura **Full-Stack** desacoplada, garantindo que o processamento de dados e a interface do usuário operem de forma independente e eficiente.
 
-Banco de Dados: PostgreSQL.
+### Camada de Software
 
-Gerenciamento de Dependências: Maven.
+| Componente | Tecnologia | Finalidade |
+| --- | --- | --- |
+| **Interface** | React.js + Vite | Experiência do usuário ágil e reativa. |
+| **Linguagem Front** | TypeScript | Segurança de tipos e código escalável. |
+| **Estilização** | Tailwind CSS | Design responsivo e interface moderna. |
+| **Backend** | Java 17 + Spring Boot 3 | Lógica de negócio e segurança robusta. |
+| **Segurança** | Spring Security + JWT | Autenticação e proteção de rotas. |
+| **Banco de Dados** | PostgreSQL | Persistência de dados relacional. |
+| **Infraestrutura** | Supabase | Hospedagem de banco de dados e API. |
 
-Frontend
-Biblioteca: React.
+---
 
-Linguagem: TypeScript.
+## ⚙️ Funcionalidades do Sistema
 
-Ferramenta de Build: Vite.
+O sistema foi projetado para oferecer uma experiência personalizada com base no perfil do usuário:
 
-Estilização: Tailwind CSS.
+* **Gestão de Identidade:** Cadastro seguro e validação de dados institucionais.
+* **Controle de Acesso (RBAC):** * **Módulo Aluno:** Acesso a trilhas de aprendizagem e jogos educativos.
+* **Módulo Pesquisador:** Painel administrativo para gestão de conteúdos.
 
-Animações: Framer Motion.
 
-Funcionalidades Implementadas
-Sistema de autenticação e controle de acesso para usuários.
+* **Recuperação de Acesso:** Fluxo automático de redefinição de senha via e-mail.
+* **Dashboard Adaptativo:** Painel de boas-vindas inteligente com design responsivo para dispositivos móveis e desktop.
 
-Fluxo de recuperação e redefinição de senha com integração via e-mail.
+---
 
-Gestão de dados de perfil para alunos e pesquisadores.
+## 📂 Organização do Repositório
 
-Interface administrativa para controle da estrutura pedagógica.
+A estrutura de diretórios segue as melhores práticas de organização para projetos modulares:
 
-Instruções de Instalação e Execução
-Pré-requisitos
-Java Development Kit (JDK) 17 ou superior instalado.
+```text
+CLOSE_UEMA/
+├── 📂 backend/        # Servidor e API RESTful (Java Spring Boot)
+│   ├── src/           # Código-fonte e regras de negócio
+│   └── pom.xml        # Gerenciador de dependências Maven
+│
+└── 📂 frontend/       # Interface de Usuário (React + Vite)
+    ├── src/           # Componentes e páginas
+    └── package.json   # Dependências e scripts Node.js
 
-Node.js e npm instalados.
+```
 
-Instância do banco de dados PostgreSQL configurada.
+---
 
-Execução do Backend
-Navegue até o diretório backend.
+### Como aplicar no GitHub:
 
-Configure as variáveis de ambiente necessárias (URL do banco, credenciais de e-mail e segredo JWT) no arquivo application.properties.
-
-Execute o comando: ./mvnw spring-boot:run.
-
-Execução do Frontend
-Navegue até o diretório frontend.
-
-Execute o comando: npm install para instalar as dependências.
-
-Execute o comando: npm run dev para iniciar o ambiente de desenvolvimento.
+1. Copie o código acima.
+2. No seu repositório `CLOSE_UEMA`, clique em **Add file** -> **Create new file**.
+3. Nomeie como `README.md`.
+4. Cole o conteúdo e clique em **Commit changes**.
